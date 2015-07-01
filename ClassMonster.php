@@ -90,7 +90,7 @@ class Monster{
 				$syllable = array("oks","hea","die","biz","zar","re","cre","ta");
 				break;
 			case 'Ogre':
-				$syllable = array("sh","r","ek","po","u","go","li","ath","or");
+				$syllable = array("sh","re","ek","po","u","go","li","ath","or");
 				break;
 			case 'Golem':
 				$syllable = array("ti","tan","pa","per","go","gis","ka","ki","ha","hel","ave","gen","kan");

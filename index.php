@@ -18,9 +18,10 @@
 			$enemy->nameIt();
 			$enemy->roll();
 		?>
+		<!-- Printing monster's attributes -->
 		<div class='print'>
 			This monster's name is <spam class='id'><?php echo $enemy->getName(); ?></spam>. <br>
-			Is a <spam class='id'><?php echo $enemy->getRace(); ?></spam> LVL <spam class='id'><?php echo $enemy->getRank(); ?></spam> and it's status are:
+			Is a <spam class='id'><?php echo $enemy->getRace(); ?></spam> LVL <spam class='id'><?php echo $enemy->getRank(); ?></spam> and it's status:
 			<p>
 				STR <?php echo $enemy->getSTR(); ?>;<br>
 				DEF <?php echo $enemy->getDEF(); ?>;<br>
