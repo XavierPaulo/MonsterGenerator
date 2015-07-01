@@ -6,12 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Status Maker</title>
+		<title>MonsterGenerator</title>
 		<?php include 'ClassMonster.php'; ?>
 	</head>
 	<body>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
-
+		<!-- Creating, naming, setting race and building monster's attributes -->
 		<?php 
 			$enemy = new Monster(intval(rand(1,6)));
 			$enemy->raceIt();
@@ -28,7 +28,7 @@
 				VIT <?php echo $enemy->getVIT(); ?>;<br>
 			</p>
 		</div>
-		<a href="Status%20Maker.php">Generate</a>
+		<a href="index.php">Generate</a>
 		
 	</body>
 </html>
