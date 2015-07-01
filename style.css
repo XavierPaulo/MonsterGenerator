@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+	background-color: #999;
+	color: #777;
+}
+div{
+	border: 1px #666 solid;
+	background-color: #fcf;
+	padding: 4px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+a:link{
+	color: #CFC;
+}
+a:visited{
+	color: #CFC;
+}
+a:visited:hover{
+	color: #CFC;
+}
+a{
+	background-color: #66A;
+	border: 1px #666 solid;
+	padding: 3px;
+}
+a:hover{
+	background-color: #A66;
+	color: #CCF;
+}
+.id{
+	color: #B55;
+}
+.print{
+	width: 380px;
+	margin: auto;
+}
