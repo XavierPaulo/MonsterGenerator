@@ -1,6 +1,6 @@
 <!--
 	Author: Paulo Victor Xavier Dias da Silva;
-	Author URI: https://github.com/pvxds; 
+	Author URI: https://github.com/xavierpaulo; 
 	Contact: xavierpaulovictor@gmail.com;
 	Version: 1.0;
 -->
