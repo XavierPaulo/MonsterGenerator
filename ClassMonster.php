@@ -122,10 +122,11 @@ class Monster{
 		$this->DEF = 0;
 		$this->AGI = 0;
 		$this->VIT = 0;
-		/*At each rank(lvl) the monster's status compute plus 2 status ponts including rank 1.
-		The base points is equals 6 and the formula is the base points plus the monster hank times two */
+		/*At each rank(lvl) the monster's status compute plus 2 status points, including rank 1.
+		The base points is equals 6 and the formula is the base points plus the double of monster's rank*/
 		$points = 6 + ($this->rank * 2);
-		/*The roullete points machine. It will distribute ponts randomly till the last. When finished, a test will check if any attributes is equals zero.
+		/*This is the roullete points machine. It will distribute points randomly till the last.
+		When finished, a test will check if any attributes is equals zero.
 		Cause would be a very unbalanced monster to deal.*/
 		while($points > 0){
 			switch (rand(1,4)){
@@ -149,7 +150,7 @@ class Monster{
 					break;
 			}
 		}
-		//the test
+		//The test
 		if($this->STR == 0){
 			$this->roll();
 		}else if($this->DEF == 0){
